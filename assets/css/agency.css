@@ -46,6 +46,10 @@ img::-moz-selection { background: transparent; }
 
 #contato_dados .row address { padding: 0px !important; margin: 0px !important; }
 
+.modal-body .img-fluid { height: 280px; }
+
+#concluidos .img-fluid { max-height: 200px; /*max-width: 120px;*/ }
+
 .btn { font-family: Roboto, 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-weight: 700; }
 
 .btn-xl { font-size: 18px; padding: 20px 40px; }
