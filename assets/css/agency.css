@@ -2,9 +2,9 @@ body { overflow-x: hidden; font-family: Roboto, -apple-system, BlinkMacSystemFon
 
 p { line-height: 1.75; }
 
-a { color: #868e96; text-shadow: 1px 1px #212529; }
+a { color: #868e96; }
 
-a:hover { color: #212529; text-shadow: 1px 1px #868e96; text-decoration: none !important; }
+a:hover { color: #212529; text-decoration: none !important; }
 
 a.btn-primary { text-shadow: none; }
 
@@ -12,7 +12,7 @@ a.btn-primary { text-shadow: none; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 700; font-family: Roboto, 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; }
 
-.page-section { padding: 100px 0; }
+.page-section { padding: 50px 0; }
 
 .page-section h2.section-heading { font-size: 40px; margin-top: 0; margin-bottom: 15px; }
 
@@ -48,7 +48,9 @@ img::-moz-selection { background: transparent; }
 
 .modal-body .img-fluid { height: 280px; }
 
-#concluidos .img-fluid { max-height: 200px; /*max-width: 120px;*/ }
+#concluidos .img-fluid { max-height: 200px; }
+
+.portfolio-caption h4 { margin-top: 5px; }
 
 .btn { font-family: Roboto, 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-weight: 700; }
 
